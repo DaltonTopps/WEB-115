@@ -1,0 +1,109 @@
+$headbox:#4D482E;
+$divbdr: 5px solid black;
+$nav: #E9D35C;
+$navhover: #FFE558;
+
+
+.headbox {
+    width: 80%;
+    height: 60%;
+    background-color: $headbox;
+    margin: 10px;
+    padding: 10px;
+    border: $divbdr;
+    font-family: 'Bellefair', serif;
+    h1{
+        
+    color: white;
+        font-family: 'Bellefair', serif;
+    }
+}
+
+
+nav a{
+    text-decoration: none;
+    font-family: 'Bellefair', serif;
+    margin: 3.6px;
+    padding: 7px;
+    border-radius: 20px;
+    color: black;
+    background-color: $nav;       
+    display: inline-block;
+    font-weight: 800;
+    width: 25%;
+    align-content: center;
+    border: 2px solid black;
+    font-size: 25px;
+    
+    a:hover{
+        background-color: $navhover;
+    }
+}
+h4 {
+    color: white;
+}
+
+.divleft {
+    font-family: 'Bellefair', serif;
+    width: 35%;
+    height: 60%;
+    background-color: $headbox;
+    margin: 10px;
+    padding: 10px;
+    border: $divbdr;
+    float: left;
+    color: white;
+    margin-left: 20px;
+    p{
+        color: white;
+        float: left;
+        font-family: 'Bellefair', serif;
+        font-size: 18px;
+        
+    }
+}
+img {
+    margin: 10px;
+    padding:20px;
+}
+
+.divright {
+    font-family: 'Bellefair', serif;
+    width: 35%;
+    height: 60%;
+    background-color: $headbox;
+    margin: 10px;
+    padding: 10px;
+    border: $divbdr;
+    float: right;
+    color: white;
+    margin-left: 20px;
+    p{
+        color: white;
+        float: left;
+        font-family: 'Bellefair', serif;
+        font-size: 18px;
+        
+    }
+}
+.footdiv{
+    font-family: 'Bellefair', serif;
+    width: 90%;
+    height: 5%;
+    background-color: $headbox;
+    margin: 10px;
+    padding: 10px;
+    border: $divbdr;
+   
+    color: white;
+    margin-left: 20px;
+    
+}
+
+ p{
+        color: white;
+        float: left;
+        font-family: 'Bellefair', serif;
+        font-size: 18px;
+        
+    }
